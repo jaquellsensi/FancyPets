@@ -1,0 +1,39 @@
+/* style.css */
+
+/* Add some spacing and background color to the body */
+body {
+    padding: 20px;
+    background-color: #f8f9fa; /* Bootstrap light gray background color */
+}
+
+/* Style for the pet card container */
+#petContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Style for each pet card */
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the card image */
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Style for the card title */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Style for the card text */
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
